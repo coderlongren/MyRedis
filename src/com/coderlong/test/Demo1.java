@@ -27,6 +27,7 @@ public class Demo1 {
 //			System.out.println(string);
 //		}
 		jedis.expire("sailong", 3);
+		jedis.save();
 	}
 
 }
